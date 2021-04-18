@@ -1,0 +1,36 @@
+baseURL: https://github.com/rcjach/hugo-webslides.git
+languageCode: en-us
+title: A Hugo theme for creating Webslides.js presentations
+disableKinds:
+  - sitemap
+  - RSS
+theme: hugo-webslides
+tags:
+  - slide
+  - presentation
+  - responsive
+  - landing page
+features:
+  - webslides.js
+  - pre-made template
+  - shortcodes
+params:
+  author: RCJacH
+  homepage: RCJacH.github.io
+  webslides:
+    autoslide: no
+    banner: no
+    changeOnClick: no
+    disableLoop: no
+    disableNavigateOnScroll: no
+    hideIndex: no
+    minWheelDelta: 40
+    scrollWait: 450
+    slideOffset: 50
+    slideshow: yes
+    vertical: no
+markup:
+  defaultMarkdownHandler: blackfriday
+  goldmark:
+    renderer:
+      unsafe: yes
